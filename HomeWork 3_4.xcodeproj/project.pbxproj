@@ -13,6 +13,8 @@
 		6F0D7B5E29388BE00052EC39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0D7B5C29388BE00052EC39 /* Main.storyboard */; };
 		6F0D7B6029388BE10052EC39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F0D7B5F29388BE10052EC39 /* Assets.xcassets */; };
 		6F0D7B6329388BE10052EC39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0D7B6129388BE10052EC39 /* LaunchScreen.storyboard */; };
+		6F32094D293896D5005DBB14 /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F32094C293896D5005DBB14 /* OrderCell.swift */; };
+		6F32094F293899AA005DBB14 /* orderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F32094E293899AA005DBB14 /* orderModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6F0D7B5F29388BE10052EC39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F0D7B6229388BE10052EC39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F0D7B6429388BE10052EC39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F32094C293896D5005DBB14 /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
+		6F32094E293899AA005DBB14 /* orderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orderModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				6F0D7B5F29388BE10052EC39 /* Assets.xcassets */,
 				6F0D7B6129388BE10052EC39 /* LaunchScreen.storyboard */,
 				6F0D7B6429388BE10052EC39 /* Info.plist */,
+				6F32094C293896D5005DBB14 /* OrderCell.swift */,
+				6F32094E293899AA005DBB14 /* orderModel.swift */,
 			);
 			path = "HomeWork 3_4";
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				6F0D7B5B29388BE00052EC39 /* ViewController.swift in Sources */,
 				6F0D7B5729388BE00052EC39 /* AppDelegate.swift in Sources */,
+				6F32094F293899AA005DBB14 /* orderModel.swift in Sources */,
+				6F32094D293896D5005DBB14 /* OrderCell.swift in Sources */,
 				6F0D7B5929388BE00052EC39 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
